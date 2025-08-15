@@ -1,5 +1,10 @@
-Microsoft Corporation @ Windows
+Reparing file system on C:
 
-CHDSK is running on your computer for recovery...
+The type of file system is NTFS.
+One of your disks contains errors and needs to be repaired. This process
+may take a while to complete.
 
-This might take a while, DO NOT TURN OFF YOUR COMPUTER.
+WARNING: DO NOT POWER OFF YOUR COMPUTER! FORCEFULLY ABORTING THIS PROCESS
+MAY RESULT IN IRRECOVERABLE DATA LOSS!
+
+CHKDSK is scanning and reparing bad sectors.
