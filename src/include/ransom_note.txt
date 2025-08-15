@@ -1,17 +1,24 @@
-#################################
-#                               #
-# Not Petya Again               #
-#                               #
-# by APT ESGI                   #
-#                               #
-#################################
+You became a victim of the NOT-PETYA-AGAIN RANSOMWARE!
+---------------------------------------------
 
-Your computer have been encrypted !
+The harddisks of your computer have been encrypted with an advanced
+military grade encryption algorithm known as AES to which the key
+that encrypted the harddisks and that is also used for decryption has
+now been erased from this system.
 
-To recover your data, please read the following instructions :
-1. Save your ID from below
-2. Leave a star on 'sven-eliasen/NotPetyaAgain' Github repository
-3. Visit : https://decryptor.octobyte.cloud and enter your ID
-4. Submit to get your decryption key and enter it in the shell below
+The only way to retrieve this decryption key is by doing the following
+steps below:
 
-Here's your personal ID :
+1) Look uo on Google "How to protect myself from malware" as you clearly
+need the lesson.
+
+2) Go to not-petya-again-decryptor.github.io or the NotPetyaAgain-Decryptor repo
+on GitHub.
+
+3) Enter your victim ID (provided below) via the website or script and the
+decryption key will be provided.
+
+IMPORTANT: Once decryption begins, DO NOT restart or shutdown your device, NotPetyaAgain
+will do so automatically.
+
+Here is your personal victim ID:
