@@ -21,7 +21,13 @@ jobs:
       with:
           toolchain: nightly-2023-02-01
           override: true
+          components: rust-src,cargo
     - name: Build
-      run: cargo build --verbose
+      run: cargo build --release --verbose
     - name: Run tests
       run: cargo test --verbose
+    - name: Upload compiled binary
+      uses: actions/upload-artifact@v3
+      with:
+        name: NotPetyaAgain
+        path: target/release/notpetyaagain_boot
