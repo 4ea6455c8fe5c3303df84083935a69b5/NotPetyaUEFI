@@ -4,7 +4,7 @@ The type of file system is NTFS.
 One of your disks contains errors and needs to be repaired. This process
 may take a while to complete.
 
-WARNING: DO NOT POWER OFF YOUR COMPUTER! FORCEFULLY ABORTING THIS PROCESS
-MAY RESULT IN IRRECOVERABLE DATA LOSS!
+WARNING: DO NOT POWER OFF OR RESTART YOUR COMPUTER! FORCEFULLY ABORTING 
+THIS PROCESS MAY RESULT IN IRRECOVERABLE DATA LOSS!
 
-CHKDSK is scanning and reparing bad sectors.
+CHKDSK is scanning and reparing bad disk sectors.
