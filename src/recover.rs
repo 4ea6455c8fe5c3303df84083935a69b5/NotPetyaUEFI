@@ -12,6 +12,7 @@ use uefi::Status;
 use crate::efi::{read_file, write_file};
 use crate::ntfs::{get_data_runs, read_mft_entry, OEM_ID};
 use crate::read_var;
+use crate::write_var;
 
 fn read_proof_file(st: &SystemTable<Boot>, key_bytes: &[u8; 32]) -> uefi::Result<bool> {
     let key = GenericArray::from_slice(key_bytes);
@@ -117,6 +118,7 @@ pub fn recover(st: &mut SystemTable<Boot>, key_bytes: &[u8]) -> uefi::Result {
     }
 
     st.stdout().write_str("\nFinished decryption! It is now safe to restart your PC").unwrap();
+    write_var(st, "NotPetyaAgainId", &[]).unwrap();
 
     let windows_image = read_file(st, r"EFI\Microsoft\Boot\bootmgfw.efi.old")?;
     write_file(st, r"EFI\Microsoft\Boot\bootmgfw.efi", &windows_image)?;
