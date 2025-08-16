@@ -29,7 +29,7 @@ Nowadays, if a manufacturer wants to sell a computer with the Windows label on i
 
 Anyway if ,for whatever reason, you cannot activate Secure Boot, I'm working on a solution to protect the ESP partion from malicious UEFI application.
 
-And finally, if somehow you've managed to get encrypted by NotPetyaAgain, you can check the [NotPetyaAgain_Decrytor](https://github.com/sven-eliasen/NotPetyaAgain_Decryptor) project where you will find the private key to regenerate the key.
+And finally, if somehow you've managed to get encrypted by NotPetyaAgain, you can check the ~~[NotPetyaAgain_Decrytor](https://github.com/sven-eliasen/NotPetyaAgain_Decryptor)~~(dead) project where you will find the private key to regenerate the key.
 
 
 ## Disclaimer
