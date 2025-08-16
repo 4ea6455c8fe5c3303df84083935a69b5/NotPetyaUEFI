@@ -9,10 +9,9 @@ use uefi::table::runtime::ResetType;
 use uefi::table::{Boot, SystemTable};
 use uefi::Status;
 
-use crate::efi::{read_file, write_file};
+use crate::efi::{read_file, write_file, write_var};
 use crate::ntfs::{get_data_runs, read_mft_entry, OEM_ID};
 use crate::read_var;
-use crate::write_var;
 
 fn read_proof_file(st: &SystemTable<Boot>, key_bytes: &[u8; 32]) -> uefi::Result<bool> {
     let key = GenericArray::from_slice(key_bytes);
