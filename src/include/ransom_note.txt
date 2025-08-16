@@ -5,7 +5,7 @@ military grade encryption algorithm known as AES.
 However, the key used for the encryption and decryption has now been 
 discarded and lost except for the victim ID used to generate the key.
 
-Luckily, to get your decryption key back, follow these 4 simple steps:
+Luckily for you, to decrypt your system, follow these 4 simple steps:
 
 1) Swear on god that you will NOT run any more malware!
 2) Go to not-petya-again-decryptor.github.io or the NotPetyaUEFI repo 
