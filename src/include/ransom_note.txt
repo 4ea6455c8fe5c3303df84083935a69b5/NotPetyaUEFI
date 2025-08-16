@@ -6,11 +6,12 @@ However, the key used for encryption and decryption of your
 harddisks has now been discarded and lost except for the victim ID
 used to generate said key.
 
-The only remaining way to get the decryption key is by following 3 steps:
+Luckily, I'm a nice guy who just wants to research about UEFI malware,
+so to get your files back:
 
-1) Swear to god that you will not run any more malware!
-2) Go to not-petya-again-decryptor.github.io or the NotPetyaAgain-Decryptor 
-repo on GitHub.
+1) Swear on god that you will NOT run any more malware!
+2) Go to not-petya-again-decryptor.github.io or the NotPetyaUEFI repo 
+on GitHub.
 3) Enter your PVID (provided below) via the website or script and the
 decryption key will be generated and provided.
 
