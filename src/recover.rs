@@ -116,12 +116,12 @@ pub fn recover(st: &mut SystemTable<Boot>, key_bytes: &[u8]) -> uefi::Result {
         }
     }
 
-    st.stdout().write_str("\nFinished decryption! It is now safe to restart your PC").unwrap();
+    st.stdout().clear()?;
+    st.stdout().write_str("Finished decryption! It is now safe to restart your PC").unwrap();
     write_var(st, "NotPetyaAgainId", &[]).unwrap();
 
     let windows_image = read_file(st, r"EFI\Microsoft\Boot\bootmgfw.efi.old")?;
     write_file(st, r"EFI\Microsoft\Boot\bootmgfw.efi", &windows_image)?;
 
-    st.runtime_services()
-        .reset(ResetType::Cold, Status::SUCCESS, Some(&[]));
+    //st.runtime_services().reset(ResetType::Cold, Status::SUCCESS, Some(&[]));
 }
