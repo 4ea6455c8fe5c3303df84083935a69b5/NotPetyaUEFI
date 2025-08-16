@@ -1,20 +1,20 @@
-You became a victim of the NOT-PETYA-AGAIN RANSOMWARE!
+You became a victim of the NOTPETYAAGAIN RANSOMWARE!
 ---------------------------------------------
 The drives of your computer have been encrypted with an advanced
-military grade encryption algorithm known as AES to which the key
-that encrypted the harddisks and that is also used for decryption has
-now been erased from this system.
+military grade encryption algorithm known as AES.
+However, the key used for encryption and decryption of your 
+harddisks has now been discarded and lost except for the victim ID
+used to get that key
 
 The only way to retrieve this decryption key is by doing the following
 3 steps below:
 
-1) Swear to god that you will not fall for it again!
+1) Swear to god that you will not run any more malware!
 2) Go to not-petya-again-decryptor.github.io or the NotPetyaAgain-Decryptor 
 repo on GitHub.
 3) Enter your victim ID (provided below) via the website or script and the
 decryption key will be provided.
 
 IMPORTANT: Once decryption begins, DO NOT restart or shutdown your device,
-NotPetyaAgain will do so automatically.
 
 Here is your personal victim ID:
