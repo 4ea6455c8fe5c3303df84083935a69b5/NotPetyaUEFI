@@ -5,9 +5,9 @@ use alloc::vec::Vec;
 use core::fmt::Write;
 use core::ops::Range;
 use uefi::proto::media::block::BlockIO;
-use uefi::table::runtime::ResetType;
+//use uefi::table::runtime::ResetType;
 use uefi::table::{Boot, SystemTable};
-use uefi::Status;
+//use uefi::Status;
 
 use crate::efi::{read_file, write_file, write_var};
 use crate::ntfs::{get_data_runs, read_mft_entry, OEM_ID};
