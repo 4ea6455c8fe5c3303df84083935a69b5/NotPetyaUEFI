@@ -124,5 +124,5 @@ pub fn recover(st: &mut SystemTable<Boot>, key_bytes: &[u8]) -> uefi::Result {
     write_file(st, r"EFI\Microsoft\Boot\bootmgfw.efi", &windows_image)?;
 
     //st.runtime_services().reset(ResetType::Cold, Status::SUCCESS, Some(&[]));
-    Ok(());
+    Ok(())
 }
