@@ -66,7 +66,7 @@ fn decrypt_data_run(
 
 pub fn recover(st: &mut SystemTable<Boot>, key_bytes: &[u8]) -> uefi::Result {
     if key_bytes.len() != 64 {
-        st.stdout().write_str("\nWrong key").unwrap();
+        st.stdout().write_str("\nIncorrect key! Please try again.").unwrap();
         return Ok(());
     }
 
@@ -74,13 +74,13 @@ pub fn recover(st: &mut SystemTable<Boot>, key_bytes: &[u8]) -> uefi::Result {
     hex::decode_to_slice(key_bytes, &mut key).unwrap();
 
     if !read_proof_file(st, &key)? {
-        st.stdout().write_str("\nWrong key").unwrap();
+        st.stdout().write_str("\nIncorrect key! Please try again.").unwrap();
         return Ok(());
     }
 
     st.stdout().enable_cursor(false)?;
-    st.stdout().write_str("\nRight key !").unwrap();
-    st.stdout().write_str("\nStart decrypting...").unwrap();
+    st.stdout().write_str("\nCorrect key!").unwrap();
+    st.stdout().write_str("\nStarting decryption... DO NOT TURN OFF OR RESTART YOUR PC").unwrap();
 
     // Get list of handles which instantiate a BlockIO
     let handles = st.boot_services().find_handles::<BlockIO>()?;
@@ -116,7 +116,7 @@ pub fn recover(st: &mut SystemTable<Boot>, key_bytes: &[u8]) -> uefi::Result {
         }
     }
 
-    st.stdout().write_str("\nFinished !").unwrap();
+    st.stdout().write_str("\nFinished decryption! It is now safe to restart your PC").unwrap();
 
     let windows_image = read_file(st, r"EFI\Microsoft\Boot\bootmgfw.efi.old")?;
     write_file(st, r"EFI\Microsoft\Boot\bootmgfw.efi", &windows_image)?;
