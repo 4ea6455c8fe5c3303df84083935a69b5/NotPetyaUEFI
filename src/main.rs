@@ -26,6 +26,7 @@ mod recover;
 fn init_chdsk_screen(st: &mut SystemTable<Boot>) -> uefi::Result {
     st.stdout().clear()?;
     st.stdout().enable_cursor(false)?;
+    st.stdout().set_color(Color::White, Color::Black)?;
     st.stdout()
         .write_str(include_str!("include/chdsk_note.txt"))
         .unwrap();
