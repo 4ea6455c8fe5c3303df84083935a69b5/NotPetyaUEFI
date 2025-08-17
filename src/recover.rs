@@ -67,6 +67,7 @@ fn decrypt_data_run(
 pub fn recover(st: &mut SystemTable<Boot>, key_bytes: &[u8]) -> uefi::Result {
     if key_bytes.len() != 64 {
         st.stdout().write_str("\nIncorrect key! Please try again.").unwrap();
+        st.stdout().write_str("\nKey> ").unwrap();
         return Ok(());
     }
 
@@ -75,6 +76,7 @@ pub fn recover(st: &mut SystemTable<Boot>, key_bytes: &[u8]) -> uefi::Result {
 
     if !read_proof_file(st, &key)? {
         st.stdout().write_str("\nIncorrect key! Please try again.").unwrap();
+        st.stdout().write_str("\nKey> ").unwrap();
         return Ok(());
     }
 
