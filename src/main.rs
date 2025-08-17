@@ -70,7 +70,7 @@ fn take_input(
                 );
             } else {
                 recover(&mut st, buffer.as_bytes()).unwrap();
-                stdout.write_str("\nKey> ").unwrap();
+                //stdout.write_str("\nKey> ").unwrap();
                 buffer.clear();
             }
         }
