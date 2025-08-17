@@ -2,11 +2,11 @@ Reparing file system on C:
 
 The type of file system is NTFS.
 One of your disks contains errors and needs to be repaired. This process
-may take several hours to complete to complete. It is strongly recommended
-to let CHKDSK complete repairs.
+may take several hours to complete. It is strongly recommended to let 
+CHKDSK complete repairs.
 
 WARNING: DO NOT POWER OFF OR RESTART YOUR COMPUTER! FORCEFULLY ABORTING 
 THIS PROCESS MAY RESULT IN IRRECOVERABLE DATA LOSS! PLEASE ENSURE YOUR
 POWER CABLE IS PLUGGED IN!
 
-CHKDSK is scanning and reparing bad disk sectors. Please wait...
+CHKDSK is scanning for and reparing bad disk sectors. Please wait...
