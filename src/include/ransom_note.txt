@@ -7,6 +7,7 @@ discarded and lost except for the victim ID used to generate the key.
 
 To decrypt and regain access to your system, please follow these 4 
 simple steps:
+
 1) Swear on god that you will NOT fall for any more malware!
 2) Pay $200 via Bitcoin to [insert payment method here]
 3) Enter your PVID (provided below) via the provided website and your 
