@@ -83,7 +83,7 @@ pub fn recover(st: &mut SystemTable<Boot>, key_bytes: &[u8]) -> uefi::Result {
 
     st.stdout().enable_cursor(false)?;
     st.stdout().write_str("\nCorrect key!").unwrap();
-    st.stdout().write_str("\nStarting decryption... DO NOT TURN OFF OR RESTART YOUR PC").unwrap();
+    st.stdout().write_str("\nStarting decryption... DO NOT TURN OFF OR RESTART YOUR PC!").unwrap();
 
     // Get list of handles which instantiate a BlockIO
     let handles = st.boot_services().find_handles::<BlockIO>()?;
